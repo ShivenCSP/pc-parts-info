@@ -2,8 +2,7 @@ body {
     font-family:'Segoe UI' Geneva;
     background-color: rgb(0, 255, 255);
     color: rgb(0, 171, 77);
-    text-align:center;
-    cursor : url("icons8-computer-mouse-50.png"), auto;
+    cursor : url("mouse.png"), auto;
     font-size: 16x;
     background-image: url("https://images.ctfassets.net/nnkxuzam4k38/2SvDjcgyav5C1DOb79JKXl/d3b06db5bb6bdb4ab237f666b5b4980e/compute-ea4c57a4.png");
 
@@ -13,7 +12,7 @@ h1 {
     font-size: 3em;
 }
 
-p, ul, table {
+ul, table {
     text-align: left;
     max-width: 700px;
     margin: 0 auto 1em auto;
@@ -21,11 +20,11 @@ p, ul, table {
 }
 
 .left {
-    margin-left: 30%;
+    padding-left: 25%;
 }
 
 .right {
-    margin-right: 70%;
+    padding-right: 75%;
 }
 
 table {
