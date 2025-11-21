@@ -20,13 +20,11 @@ ul, table {
 }
 
 .left {
-    display: flex;
-    c
-    
+    float: right;
 }
 
 .right {
-    display: flex;
+    float: left;
 }
 
 table {
